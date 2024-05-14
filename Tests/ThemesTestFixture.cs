@@ -1,8 +1,10 @@
 ﻿using NUnit.Framework;
 using System.Drawing;
+using System.Runtime.Versioning;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
 
+[assembly: SupportedOSPlatform("windows")]
 namespace Tests
 {
     [TestFixture]
